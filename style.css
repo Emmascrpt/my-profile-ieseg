@@ -1,0 +1,173 @@
+
+body { 
+    background-color: white;
+    background-image: linear-gradient(#F7E2E2, #5B7DB1);
+    color: #3A3845;
+    font-family: archivo narrow;
+    }
+
+h1 {
+color: #1A132F;
+    }
+
+h2 {
+color: #1A132F;
+    }
+
+h4 {
+color: #5B7DB1;
+font-size: 30px;
+    }
+
+
+a {
+text-decoration: none;
+color: #5B7DB1;
+font-weight: bold;
+    }
+
+a : hover  {
+color: #B05B3B;
+    }
+
+#logo {
+width: 250px;
+    }
+
+.img-circle {
+width: 150px;
+padding: 30px;
+    }
+
+    img {
+width : 200px;
+}
+
+
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin: 20px auto;
+    }
+
+.card-white {
+background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0px 10px 30px rgba(50, 50, 93, .1);
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+grid-template-columns: 1fr 1fr 1fr;
+    }
+
+.card-brown {
+background: #F7E2E2;
+text-align: right;
+padding: 30px;
+text-align: center;
+line-height: 40px;
+    }
+
+.card-creme {
+background: #F7E2E2;
+text-align: center;
+padding: 30px;
+    }
+
+.btn-brown {
+background: white;
+padding: 20px;
+border-radius: 40px;
+text-align: center;
+transition: 0.3s;
+position: relative;
+     margin:150px auto 0;
+     left:100px;
+     width: 900px
+    }
+
+.btn-brown:hover {
+    background-color: #F7E2E2;
+    color: #1A132F;
+}
+
+.btn-brown2:hover {
+    background-color: #F7E2E2;
+    color: #1A132F;
+}
+
+.btn-brown2 {
+background: white;
+padding: 20px;
+border-radius: 40px;
+text-align: center;
+transition: 0.3s;
+}
+
+.btn-rouille {
+color: #5B7DB1;
+font-weight: bold;
+font-size: 20px;
+background: #F7E2E2;
+padding: 40px;
+border-radius: 50px;
+width: 400px;
+margin: 20px auto;
+text-align: center;
+grid-template-columns: 1fr 1fr 1fr;
+    }
+
+.card-light {
+font-weight: bold;
+background: white;
+padding:3px;
+border-radius: 70px;
+width: 400px;
+margin: 20px auto;
+text-align: center;
+    }
+
+
+.learn {
+text-align: left;
+font-weight: bold
+    }
+
+.image-top {
+float:right;;
+    }
+
+#titre {
+width: 400px;
+margin-left: 530px;
+    }
+
+@media (max-width: 960px) {
+.container {
+    width: 700px;
+    }
+
+   }
+
+@media (max-width: 720px) {
+.container {
+    width: 500px;
+    }
+
+  }
+
+    @media (max-width: 540px) {
+.container {
+    width: 300px;
+    }
+
+   }
+
+
+
+
+
